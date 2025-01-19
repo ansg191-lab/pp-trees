@@ -1,1 +1,933 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "id": "808119d30b25810f73852600314b19cfa047760835aae9ff62159a0fa6ff17e4", "geometry": {"type": "Point", "coordinates": [-117.760147, 33.718578]}, "properties": {"timestamp": "2025-01-18T12:29:18", "file": "images/IMG_0424/IMG_0424.HEIC", "hash": "808119d30b25810f73852600314b19cfa047760835aae9ff62159a0fa6ff17e4"}}, {"type": "Feature", "id": "796c8dbd0afa811890c6e05baf2e5ef7c2716eb7aeba9cd7c47d01a562e72736", "geometry": {"type": "Point", "coordinates": [-117.760314, 33.718717]}, "properties": {"timestamp": "2025-01-18T12:28:29", "file": "images/IMG_0423/IMG_0423.HEIC", "hash": "796c8dbd0afa811890c6e05baf2e5ef7c2716eb7aeba9cd7c47d01a562e72736"}}, {"type": "Feature", "id": "ec7133282a3941466cdbde19fb95d41b06c9b9d958cb73db6dc03e57c5163d04", "geometry": {"type": "Point", "coordinates": [-117.762025, 33.719861]}, "properties": {"timestamp": "2025-01-18T12:23:42", "file": "images/IMG_0415/IMG_0415.HEIC", "hash": "ec7133282a3941466cdbde19fb95d41b06c9b9d958cb73db6dc03e57c5163d04"}}, {"type": "Feature", "id": "5345bccd2c04aa44fe3ea1b18a4ba193637250f9f1ae456606290d21864d8c7e", "geometry": {"type": "Point", "coordinates": [-117.762847, 33.720464]}, "properties": {"timestamp": "2025-01-18T12:19:49", "file": "images/IMG_0412/IMG_0412.HEIC", "hash": "5345bccd2c04aa44fe3ea1b18a4ba193637250f9f1ae456606290d21864d8c7e"}}, {"type": "Feature", "id": "b1a691745c0d86ca807df59397746694e772685944057ea061a9de02686f5a24", "geometry": {"type": "Point", "coordinates": [-117.752144, 33.717697]}, "properties": {"timestamp": "2025-01-18T12:55:13", "file": "images/IMG_0446/IMG_0446.HEIC", "hash": "b1a691745c0d86ca807df59397746694e772685944057ea061a9de02686f5a24"}}, {"type": "Feature", "id": "9575cd7662845f8d7585a0d4a242eef0b5555eb189349d344ed3dcba45db2391", "geometry": {"type": "Point", "coordinates": [-117.757422, 33.719047]}, "properties": {"timestamp": "2025-01-18T12:41:37", "file": "images/IMG_0441/IMG_0441.HEIC", "hash": "9575cd7662845f8d7585a0d4a242eef0b5555eb189349d344ed3dcba45db2391"}}, {"type": "Feature", "id": "c081ebfe84e4b998785b9984e21cd944ee6234d2e9be1a5c0438881dbd06c44a", "geometry": {"type": "Point", "coordinates": [-117.752364, 33.717986]}, "properties": {"timestamp": "2025-01-18T12:56:34", "file": "images/IMG_0448/IMG_0448.HEIC", "hash": "c081ebfe84e4b998785b9984e21cd944ee6234d2e9be1a5c0438881dbd06c44a"}}, {"type": "Feature", "id": "0e909b4d2c8859ff9ebdd53afee5983938625031e01ca250105f890afc6c047d", "geometry": {"type": "Point", "coordinates": [-117.762978, 33.720608]}, "properties": {"timestamp": "2025-01-18T12:20:16", "file": "images/IMG_0413/IMG_0413.HEIC", "hash": "0e909b4d2c8859ff9ebdd53afee5983938625031e01ca250105f890afc6c047d"}}, {"type": "Feature", "id": "2eb1c91e4934d98043a91a808533942aa50b9542acb174feab600a5accc04239", "geometry": {"type": "Point", "coordinates": [-117.762322, 33.720108]}, "properties": {"timestamp": "2025-01-18T12:22:41", "file": "images/IMG_0414/IMG_0414.HEIC", "hash": "2eb1c91e4934d98043a91a808533942aa50b9542acb174feab600a5accc04239"}}, {"type": "Feature", "id": "2e0af4c0e33f63018abca24e8bd0c77cc926fd3c42ac2deef0d60497edb46185", "geometry": {"type": "Point", "coordinates": [-117.760681, 33.718881]}, "properties": {"timestamp": "2025-01-18T12:27:23", "file": "images/IMG_0422/IMG_0422.HEIC", "hash": "2e0af4c0e33f63018abca24e8bd0c77cc926fd3c42ac2deef0d60497edb46185"}}, {"type": "Feature", "id": "74533cdf2c8c7af6b2835d2164554117717ffb6317a714cdc3fc6639a49fbbd8", "geometry": {"type": "Point", "coordinates": [-117.752364, 33.717986]}, "properties": {"timestamp": "2025-01-18T12:56:34", "file": "images/IMG_0449/IMG_0449.HEIC", "hash": "74533cdf2c8c7af6b2835d2164554117717ffb6317a714cdc3fc6639a49fbbd8"}}, {"type": "Feature", "id": "6b705eed26fa67f272b779bf32462584ec62b3eb8a67f75b655655cfa1dea558", "geometry": {"type": "Point", "coordinates": [-117.757461, 33.719117]}, "properties": {"timestamp": "2025-01-18T12:40:45", "file": "images/IMG_0440/IMG_0440.HEIC", "hash": "6b705eed26fa67f272b779bf32462584ec62b3eb8a67f75b655655cfa1dea558"}}, {"type": "Feature", "id": "d9166f108a2458d504fd7d0ae833c82a133531e3c2f35c31140371b65427bd9c", "geometry": {"type": "Point", "coordinates": [-117.752311, 33.718003]}, "properties": {"timestamp": "2025-01-18T12:56:22", "file": "images/IMG_0447/IMG_0447.HEIC", "hash": "d9166f108a2458d504fd7d0ae833c82a133531e3c2f35c31140371b65427bd9c"}}, {"type": "Feature", "id": "a12bb3aa057980eb3ce0aa4da64578b4a786d5467cac8e7504ee19d230bb473c", "geometry": {"type": "Point", "coordinates": [-117.760589, 33.717364]}, "properties": {"timestamp": "2025-01-18T13:18:24", "file": "images/IMG_0465/IMG_0465.HEIC", "hash": "a12bb3aa057980eb3ce0aa4da64578b4a786d5467cac8e7504ee19d230bb473c"}}, {"type": "Feature", "id": "7abfec489e9d95f3e87ddc2eec525c57d484d0c7fcef79e163cee35716945662", "geometry": {"type": "Point", "coordinates": [-117.7584, 33.717342]}, "properties": {"timestamp": "2025-01-18T13:14:51", "file": "images/IMG_0462/IMG_0462.HEIC", "hash": "7abfec489e9d95f3e87ddc2eec525c57d484d0c7fcef79e163cee35716945662"}}, {"type": "Feature", "id": "7f079d87374e12cdff3351c686457b3af072c357e9be4d8db3e48888bc6a60e3", "geometry": {"type": "Point", "coordinates": [-117.754228, 33.717267]}, "properties": {"timestamp": "2025-01-18T13:03:59", "file": "images/IMG_0454/IMG_0454.HEIC", "hash": "7f079d87374e12cdff3351c686457b3af072c357e9be4d8db3e48888bc6a60e3"}}, {"type": "Feature", "id": "f5c70c5f94056e96047eb36d81e34d29f5763f927ec4f61507c03524e86ab071", "geometry": {"type": "Point", "coordinates": [-117.754364, 33.716972]}, "properties": {"timestamp": "2025-01-18T13:03:21", "file": "images/IMG_0453/IMG_0453.HEIC", "hash": "f5c70c5f94056e96047eb36d81e34d29f5763f927ec4f61507c03524e86ab071"}}, {"type": "Feature", "id": "93d5f1074546b7ce1f9b5d8a4f7509d0cf0c47a1fdb0b7adba7747d0b2cb2c61", "geometry": {"type": "Point", "coordinates": [-117.763083, 33.718972]}, "properties": {"timestamp": "2025-01-18T12:15:33", "file": "images/IMG_0407/IMG_0407.HEIC", "hash": "93d5f1074546b7ce1f9b5d8a4f7509d0cf0c47a1fdb0b7adba7747d0b2cb2c61"}}, {"type": "Feature", "id": "07afae60c905cf768a962fae1cc9026830967a441daca60af840182d869eecf6", "geometry": {"type": "Point", "coordinates": [-117.7576, 33.719242]}, "properties": {"timestamp": "2025-01-18T12:39:59", "file": "images/IMG_0438/IMG_0438.HEIC", "hash": "07afae60c905cf768a962fae1cc9026830967a441daca60af840182d869eecf6"}}, {"type": "Feature", "id": "95258f4dc30d62735acca7cc3a59c5a92dcc633ea804dcd09b34c6c44d4119cc", "geometry": {"type": "Point", "coordinates": [-117.758003, 33.719514]}, "properties": {"timestamp": "2025-01-18T12:38:56", "file": "images/IMG_0436/IMG_0436.HEIC", "hash": "95258f4dc30d62735acca7cc3a59c5a92dcc633ea804dcd09b34c6c44d4119cc"}}, {"type": "Feature", "id": "ecb988db05586871a96e1b5999407a925599b38d7ac1a824943c2792315fd148", "geometry": {"type": "Point", "coordinates": [-117.763292, 33.719192]}, "properties": {"timestamp": "2025-01-18T12:16:29", "file": "images/IMG_0409/IMG_0409.HEIC", "hash": "ecb988db05586871a96e1b5999407a925599b38d7ac1a824943c2792315fd148"}}, {"type": "Feature", "id": "9f2ec433e0115afd15ff9a824c79e6ad127eac9c23df8bac3ab217c75b6649c8", "geometry": {"type": "Point", "coordinates": [-117.758628, 33.719939]}, "properties": {"timestamp": "2025-01-18T12:36:09", "file": "images/IMG_0431/IMG_0431.HEIC", "hash": "9f2ec433e0115afd15ff9a824c79e6ad127eac9c23df8bac3ab217c75b6649c8"}}, {"type": "Feature", "id": "096f108398a4c59535fee5a99d3543273d111f6f203dbedb51a6a01cae649179", "geometry": {"type": "Point", "coordinates": [-117.753364, 33.717833]}, "properties": {"timestamp": "2025-01-18T13:01:04", "file": "images/IMG_0452/IMG_0452.HEIC", "hash": "096f108398a4c59535fee5a99d3543273d111f6f203dbedb51a6a01cae649179"}}, {"type": "Feature", "id": "420e84c3646e00b03e9bdb61cdfb40ef75beed4210e668b300ee8feeea75e265", "geometry": {"type": "Point", "coordinates": [-117.755014, 33.717408]}, "properties": {"timestamp": "2025-01-18T13:05:32", "file": "images/IMG_0455/IMG_0455.HEIC", "hash": "420e84c3646e00b03e9bdb61cdfb40ef75beed4210e668b300ee8feeea75e265"}}, {"type": "Feature", "id": "a2badad7e20a2420f8fb5135f72ab8bad9c45f5c4d422717fee079d1bf5dc112", "geometry": {"type": "Point", "coordinates": [-117.758781, 33.717681]}, "properties": {"timestamp": "2025-01-18T13:15:42", "file": "images/IMG_0463/IMG_0463.HEIC", "hash": "a2badad7e20a2420f8fb5135f72ab8bad9c45f5c4d422717fee079d1bf5dc112"}}, {"type": "Feature", "id": "a44a349bdccfa51ed5219d591a5bd6a1af5a15df0bc8ef3f157c8af882a67177", "geometry": {"type": "Point", "coordinates": [-117.760528, 33.717331]}, "properties": {"timestamp": "2025-01-18T13:18:13", "file": "images/IMG_0464/IMG_0464.HEIC", "hash": "a44a349bdccfa51ed5219d591a5bd6a1af5a15df0bc8ef3f157c8af882a67177"}}, {"type": "Feature", "id": "426094fe9b385fd88ac1ba296bde61af76f7975ec6b122e44b5f80fc5385900c", "geometry": {"type": "Point", "coordinates": [-117.758781, 33.720067]}, "properties": {"timestamp": "2025-01-18T12:35:42", "file": "images/IMG_0430/IMG_0430.HEIC", "hash": "426094fe9b385fd88ac1ba296bde61af76f7975ec6b122e44b5f80fc5385900c"}}, {"type": "Feature", "id": "e4b5c65bc871ec4ce33d1324cef4f62cf0a9975d38d8beacce8c4c976c50f691", "geometry": {"type": "Point", "coordinates": [-117.757644, 33.719264]}, "properties": {"timestamp": "2025-01-18T12:39:49", "file": "images/IMG_0437/IMG_0437.HEIC", "hash": "e4b5c65bc871ec4ce33d1324cef4f62cf0a9975d38d8beacce8c4c976c50f691"}}, {"type": "Feature", "id": "5602a9db9bf92d368072124d148f7073189e91a9fa1bd455819da0c705fb4099", "geometry": {"type": "Point", "coordinates": [-117.763283, 33.719208]}, "properties": {"timestamp": "2025-01-18T12:16:22", "file": "images/IMG_0408/IMG_0408.HEIC", "hash": "5602a9db9bf92d368072124d148f7073189e91a9fa1bd455819da0c705fb4099"}}, {"type": "Feature", "id": "683848e89dadc8027bbb4dd029b5ae9ac9624fd64ad9404a2597ff5d5577110b", "geometry": {"type": "Point", "coordinates": [-117.762567, 33.718717]}, "properties": {"timestamp": "2025-01-18T12:14:00", "file": "images/IMG_0406/IMG_0406.HEIC", "hash": "683848e89dadc8027bbb4dd029b5ae9ac9624fd64ad9404a2597ff5d5577110b"}}, {"type": "Feature", "id": "eaf858a97aeb7446b89931a35d97a51b31bd8d4932aa1424775bd75ef7260ca7", "geometry": {"type": "Point", "coordinates": [-117.757508, 33.719181]}, "properties": {"timestamp": "2025-01-18T12:40:18", "file": "images/IMG_0439/IMG_0439.HEIC", "hash": "eaf858a97aeb7446b89931a35d97a51b31bd8d4932aa1424775bd75ef7260ca7"}}, {"type": "Feature", "id": "0435a8ff63ae9baf56e129306eff0e630a82bba02820ddfffaf110a190f190bd", "geometry": {"type": "Point", "coordinates": [-117.751992, 33.719197]}, "properties": {"timestamp": "2025-01-18T12:51:38", "file": "images/IMG_0442/IMG_0442.HEIC", "hash": "0435a8ff63ae9baf56e129306eff0e630a82bba02820ddfffaf110a190f190bd"}}, {"type": "Feature", "id": "7ae942fbb354b9617ffa14ea5833ce40089c626ff4269bb7064e51b4379d3eb5", "geometry": {"type": "Point", "coordinates": [-117.75225, 33.717861]}, "properties": {"timestamp": "2025-01-18T12:54:51", "file": "images/IMG_0445/IMG_0445.HEIC", "hash": "7ae942fbb354b9617ffa14ea5833ce40089c626ff4269bb7064e51b4379d3eb5"}}, {"type": "Feature", "id": "ede1b3be57a448baa7fb184223a0aba4b0b73625111355913b8c1683cddef18e", "geometry": {"type": "Point", "coordinates": [-117.761711, 33.719703]}, "properties": {"timestamp": "2025-01-18T12:25:07", "file": "images/IMG_0420/IMG_0420.HEIC", "hash": "ede1b3be57a448baa7fb184223a0aba4b0b73625111355913b8c1683cddef18e"}}, {"type": "Feature", "id": "f9228988a63efcb2eb9af4503ee0e4927714afe05da23e4ae3fa4e64f69233a6", "geometry": {"type": "Point", "coordinates": [-117.761842, 33.719753]}, "properties": {"timestamp": "2025-01-18T12:24:40", "file": "images/IMG_0418/IMG_0418.HEIC", "hash": "f9228988a63efcb2eb9af4503ee0e4927714afe05da23e4ae3fa4e64f69233a6"}}, {"type": "Feature", "id": "0d724ccde55b8359b075f9d30b208f78e0cbd39fdf9d76e62815ee1314daebab", "geometry": {"type": "Point", "coordinates": [-117.759033, 33.720222]}, "properties": {"timestamp": "2025-01-18T12:34:21", "file": "images/IMG_0427/IMG_0427.HEIC", "hash": "0d724ccde55b8359b075f9d30b208f78e0cbd39fdf9d76e62815ee1314daebab"}}, {"type": "Feature", "id": "30f89e3b5abe36df5f779678a99359800ce43244dc6833fa923afe736453eaf5", "geometry": {"type": "Point", "coordinates": [-117.762825, 33.720439]}, "properties": {"timestamp": "2025-01-18T12:19:41", "file": "images/IMG_0411/IMG_0411.HEIC", "hash": "30f89e3b5abe36df5f779678a99359800ce43244dc6833fa923afe736453eaf5"}}, {"type": "Feature", "id": "1cb98ae119c73ea7012aaac734ac55f3e97409a67f6d596bedc64ed8fcd0eae8", "geometry": {"type": "Point", "coordinates": [-117.758881, 33.720136]}, "properties": {"timestamp": "2025-01-18T12:35:22", "file": "images/IMG_0429/IMG_0429.HEIC", "hash": "1cb98ae119c73ea7012aaac734ac55f3e97409a67f6d596bedc64ed8fcd0eae8"}}, {"type": "Feature", "id": "375fb603632b546b143d79b52fea0ed1a91392e6d73ee23fff8be798becf2744", "geometry": {"type": "Point", "coordinates": [-117.761978, 33.719853]}, "properties": {"timestamp": "2025-01-18T12:23:55", "file": "images/IMG_0416/IMG_0416.HEIC", "hash": "375fb603632b546b143d79b52fea0ed1a91392e6d73ee23fff8be798becf2744"}}, {"type": "Feature", "id": "1fe673536bbbe3b5b9c1cc61f0d13b3f567f9b0c3ecfeaa5079842cd6a7fa790", "geometry": {"type": "Point", "coordinates": [-117.752236, 33.71795]}, "properties": {"timestamp": "2025-01-18T12:54:36", "file": "images/IMG_0444/IMG_0444.HEIC", "hash": "1fe673536bbbe3b5b9c1cc61f0d13b3f567f9b0c3ecfeaa5079842cd6a7fa790"}}, {"type": "Feature", "id": "d5fe7ba894fe8ce7947c2036caffe3e1222dff67a79d5357585aa3e1ef1c8d92", "geometry": {"type": "Point", "coordinates": [-117.752006, 33.719192]}, "properties": {"timestamp": "2025-01-18T12:51:46", "file": "images/IMG_0443/IMG_0443.HEIC", "hash": "d5fe7ba894fe8ce7947c2036caffe3e1222dff67a79d5357585aa3e1ef1c8d92"}}, {"type": "Feature", "id": "7b53a232559c0ae875c7394289ffb3b5601b3d31e0267c2139e47dc915a6bf1b", "geometry": {"type": "Point", "coordinates": [-117.758972, 33.720194]}, "properties": {"timestamp": "2025-01-18T12:34:44", "file": "images/IMG_0428/IMG_0428.HEIC", "hash": "7b53a232559c0ae875c7394289ffb3b5601b3d31e0267c2139e47dc915a6bf1b"}}, {"type": "Feature", "id": "58345eebf5fb4c2a836023ee51004c6bffbe216df86055764b3a2e2fef6b7550", "geometry": {"type": "Point", "coordinates": [-117.761886, 33.7198]}, "properties": {"timestamp": "2025-01-18T12:24:20", "file": "images/IMG_0417/IMG_0417.HEIC", "hash": "58345eebf5fb4c2a836023ee51004c6bffbe216df86055764b3a2e2fef6b7550"}}, {"type": "Feature", "id": "31be3b002b0d76de62da3838190d0c6790f5665cf767ba525a3a257a3e595f1e", "geometry": {"type": "Point", "coordinates": [-117.763458, 33.719258]}, "properties": {"timestamp": "2025-01-18T12:17:04", "file": "images/IMG_0410/IMG_0410.HEIC", "hash": "31be3b002b0d76de62da3838190d0c6790f5665cf767ba525a3a257a3e595f1e"}}, {"type": "Feature", "id": "c8e91cc3300fb3781286f752ef0c33b4739a9182793e68b9d801cfb0f60418a4", "geometry": {"type": "Point", "coordinates": [-117.760078, 33.718578]}, "properties": {"timestamp": "2025-01-18T12:30:43", "file": "images/IMG_0426/IMG_0426.HEIC", "hash": "c8e91cc3300fb3781286f752ef0c33b4739a9182793e68b9d801cfb0f60418a4"}}, {"type": "Feature", "id": "a431198e713089854e49f60b5347d3553c566a73e620d102dda405e3b10c3411", "geometry": {"type": "Point", "coordinates": [-117.761125, 33.719233]}, "properties": {"timestamp": "2025-01-18T12:26:35", "file": "images/IMG_0421/IMG_0421.HEIC", "hash": "a431198e713089854e49f60b5347d3553c566a73e620d102dda405e3b10c3411"}}, {"type": "Feature", "id": "adf45a795b29ca64a2d82b46d823544cf41fec5c332bc99cf4cb48f108e71a67", "geometry": {"type": "Point", "coordinates": [-117.758614, 33.719925]}, "properties": {"timestamp": "2025-01-18T12:36:18", "file": "images/IMG_0432/IMG_0432.HEIC", "hash": "adf45a795b29ca64a2d82b46d823544cf41fec5c332bc99cf4cb48f108e71a67"}}, {"type": "Feature", "id": "e660d695c3849c723db6c1e6b11043db421627ac0f7ec92e98ee98e23603105d", "geometry": {"type": "Point", "coordinates": [-117.758125, 33.7196]}, "properties": {"timestamp": "2025-01-18T12:38:34", "file": "images/IMG_0435/IMG_0435.HEIC", "hash": "e660d695c3849c723db6c1e6b11043db421627ac0f7ec92e98ee98e23603105d"}}, {"type": "Feature", "id": "53a283c935b5ee36fb9dd8f0ab5c0f44137b9681af694d19940bc0733dc0a880", "geometry": {"type": "Point", "coordinates": [-117.758094, 33.717147]}, "properties": {"timestamp": "2025-01-18T13:14:09", "file": "images/IMG_0461/IMG_0461.HEIC", "hash": "53a283c935b5ee36fb9dd8f0ab5c0f44137b9681af694d19940bc0733dc0a880"}}, {"type": "Feature", "id": "37b84c7a80ec1851c635a4d7984840a5eb8157573dec24862bae443b3654b3ca", "geometry": {"type": "Point", "coordinates": [-117.75785, 33.717281]}, "properties": {"timestamp": "2025-01-18T13:13:41", "file": "images/IMG_0459/IMG_0459.HEIC", "hash": "37b84c7a80ec1851c635a4d7984840a5eb8157573dec24862bae443b3654b3ca"}}, {"type": "Feature", "id": "651b5b6dcb1382d5d4395fd2390e8290071e0a72459992ecd1d73df7188eb427", "geometry": {"type": "Point", "coordinates": [-117.752411, 33.717992]}, "properties": {"timestamp": "2025-01-18T12:57:10", "file": "images/IMG_0450/IMG_0450.HEIC", "hash": "651b5b6dcb1382d5d4395fd2390e8290071e0a72459992ecd1d73df7188eb427"}}, {"type": "Feature", "id": "dae2120dbc046c19fa97b91aebfe0176348e20c28bdfabd3678b44ccf8d9b83e", "geometry": {"type": "Point", "coordinates": [-117.757819, 33.717144]}, "properties": {"timestamp": "2025-01-18T13:13:10", "file": "images/IMG_0457/IMG_0457.HEIC", "hash": "dae2120dbc046c19fa97b91aebfe0176348e20c28bdfabd3678b44ccf8d9b83e"}}, {"type": "Feature", "id": "da745bf745745c08d2067068e56db0fb93cf0e89c48526afde658e3ea0ab8fca", "geometry": {"type": "Point", "coordinates": [-117.758208, 33.719639]}, "properties": {"timestamp": "2025-01-18T12:38:14", "file": "images/IMG_0434/IMG_0434.HEIC", "hash": "da745bf745745c08d2067068e56db0fb93cf0e89c48526afde658e3ea0ab8fca"}}, {"type": "Feature", "id": "44c0378a27602306bc6b22452f4c6ac9c3d70a3ceb0e1c5fac0f334c27eb9e77", "geometry": {"type": "Point", "coordinates": [-117.758239, 33.719653]}, "properties": {"timestamp": "2025-01-18T12:37:51", "file": "images/IMG_0433/IMG_0433.HEIC", "hash": "44c0378a27602306bc6b22452f4c6ac9c3d70a3ceb0e1c5fac0f334c27eb9e77"}}, {"type": "Feature", "id": "f7414bac1754396892d4dd2eaf4e0eedca39798b9d73647c3f5fb8ed1d86dcd5", "geometry": {"type": "Point", "coordinates": [-117.755333, 33.717789]}, "properties": {"timestamp": "2025-01-18T13:06:42", "file": "images/IMG_0456/IMG_0456.HEIC", "hash": "f7414bac1754396892d4dd2eaf4e0eedca39798b9d73647c3f5fb8ed1d86dcd5"}}, {"type": "Feature", "id": "5f2c2f3c1099415b8d3cec63744699835de99c1c7cc752a12c602460849537a6", "geometry": {"type": "Point", "coordinates": [-117.752931, 33.718678]}, "properties": {"timestamp": "2025-01-18T12:59:53", "file": "images/IMG_0451/IMG_0451.HEIC", "hash": "5f2c2f3c1099415b8d3cec63744699835de99c1c7cc752a12c602460849537a6"}}, {"type": "Feature", "id": "0cc5b022f81c1ef35823c2e7cd2fdc7e1c85319784e7ec89c7b38fb06bff13fd", "geometry": {"type": "Point", "coordinates": [-117.757653, 33.717197]}, "properties": {"timestamp": "2025-01-18T13:13:16", "file": "images/IMG_0458/IMG_0458.HEIC", "hash": "0cc5b022f81c1ef35823c2e7cd2fdc7e1c85319784e7ec89c7b38fb06bff13fd"}}, {"type": "Feature", "id": "e35c07d576b33157b5292b850d6b87a0f545f5975b8b2b80b45a222283ecf06f", "geometry": {"type": "Point", "coordinates": [-117.758056, 33.717144]}, "properties": {"timestamp": "2025-01-18T13:14:02", "file": "images/IMG_0460/IMG_0460.HEIC", "hash": "e35c07d576b33157b5292b850d6b87a0f545f5975b8b2b80b45a222283ecf06f"}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "808119d30b25810f73852600314b19cfa047760835aae9ff62159a0fa6ff17e4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.760147,
+                    33.718578
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:29:18",
+                "file": "images/IMG_0424/IMG_0424.HEIC",
+                "hash": "808119d30b25810f73852600314b19cfa047760835aae9ff62159a0fa6ff17e4"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "796c8dbd0afa811890c6e05baf2e5ef7c2716eb7aeba9cd7c47d01a562e72736",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.760314,
+                    33.718717
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:28:29",
+                "file": "images/IMG_0423/IMG_0423.HEIC",
+                "hash": "796c8dbd0afa811890c6e05baf2e5ef7c2716eb7aeba9cd7c47d01a562e72736"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ec7133282a3941466cdbde19fb95d41b06c9b9d958cb73db6dc03e57c5163d04",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.762025,
+                    33.719861
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:23:42",
+                "file": "images/IMG_0415/IMG_0415.HEIC",
+                "hash": "ec7133282a3941466cdbde19fb95d41b06c9b9d958cb73db6dc03e57c5163d04"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "5345bccd2c04aa44fe3ea1b18a4ba193637250f9f1ae456606290d21864d8c7e",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.762847,
+                    33.720464
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:19:49",
+                "file": "images/IMG_0412/IMG_0412.HEIC",
+                "hash": "5345bccd2c04aa44fe3ea1b18a4ba193637250f9f1ae456606290d21864d8c7e"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "b1a691745c0d86ca807df59397746694e772685944057ea061a9de02686f5a24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.752144,
+                    33.717697
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:55:13",
+                "file": "images/IMG_0446/IMG_0446.HEIC",
+                "hash": "b1a691745c0d86ca807df59397746694e772685944057ea061a9de02686f5a24"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "9575cd7662845f8d7585a0d4a242eef0b5555eb189349d344ed3dcba45db2391",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.757422,
+                    33.719047
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:41:37",
+                "file": "images/IMG_0441/IMG_0441.HEIC",
+                "hash": "9575cd7662845f8d7585a0d4a242eef0b5555eb189349d344ed3dcba45db2391"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "c081ebfe84e4b998785b9984e21cd944ee6234d2e9be1a5c0438881dbd06c44a",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.752364,
+                    33.717986
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:56:34",
+                "file": "images/IMG_0448/IMG_0448.HEIC",
+                "hash": "c081ebfe84e4b998785b9984e21cd944ee6234d2e9be1a5c0438881dbd06c44a"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "0e909b4d2c8859ff9ebdd53afee5983938625031e01ca250105f890afc6c047d",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.762978,
+                    33.720608
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:20:16",
+                "file": "images/IMG_0413/IMG_0413.HEIC",
+                "hash": "0e909b4d2c8859ff9ebdd53afee5983938625031e01ca250105f890afc6c047d"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "2eb1c91e4934d98043a91a808533942aa50b9542acb174feab600a5accc04239",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.762322,
+                    33.720108
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:22:41",
+                "file": "images/IMG_0414/IMG_0414.HEIC",
+                "hash": "2eb1c91e4934d98043a91a808533942aa50b9542acb174feab600a5accc04239"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "2e0af4c0e33f63018abca24e8bd0c77cc926fd3c42ac2deef0d60497edb46185",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.760681,
+                    33.718881
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:27:23",
+                "file": "images/IMG_0422/IMG_0422.HEIC",
+                "hash": "2e0af4c0e33f63018abca24e8bd0c77cc926fd3c42ac2deef0d60497edb46185"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "74533cdf2c8c7af6b2835d2164554117717ffb6317a714cdc3fc6639a49fbbd8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.752364,
+                    33.717986
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:56:34",
+                "file": "images/IMG_0449/IMG_0449.HEIC",
+                "hash": "74533cdf2c8c7af6b2835d2164554117717ffb6317a714cdc3fc6639a49fbbd8"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "6b705eed26fa67f272b779bf32462584ec62b3eb8a67f75b655655cfa1dea558",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.757461,
+                    33.719117
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:40:45",
+                "file": "images/IMG_0440/IMG_0440.HEIC",
+                "hash": "6b705eed26fa67f272b779bf32462584ec62b3eb8a67f75b655655cfa1dea558"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "d9166f108a2458d504fd7d0ae833c82a133531e3c2f35c31140371b65427bd9c",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.752311,
+                    33.718003
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:56:22",
+                "file": "images/IMG_0447/IMG_0447.HEIC",
+                "hash": "d9166f108a2458d504fd7d0ae833c82a133531e3c2f35c31140371b65427bd9c"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "a12bb3aa057980eb3ce0aa4da64578b4a786d5467cac8e7504ee19d230bb473c",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.760589,
+                    33.717364
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:18:24",
+                "file": "images/IMG_0465/IMG_0465.HEIC",
+                "hash": "a12bb3aa057980eb3ce0aa4da64578b4a786d5467cac8e7504ee19d230bb473c"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "7abfec489e9d95f3e87ddc2eec525c57d484d0c7fcef79e163cee35716945662",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.7584,
+                    33.717342
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:14:51",
+                "file": "images/IMG_0462/IMG_0462.HEIC",
+                "hash": "7abfec489e9d95f3e87ddc2eec525c57d484d0c7fcef79e163cee35716945662"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "7f079d87374e12cdff3351c686457b3af072c357e9be4d8db3e48888bc6a60e3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.754228,
+                    33.717267
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:03:59",
+                "file": "images/IMG_0454/IMG_0454.HEIC",
+                "hash": "7f079d87374e12cdff3351c686457b3af072c357e9be4d8db3e48888bc6a60e3"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "f5c70c5f94056e96047eb36d81e34d29f5763f927ec4f61507c03524e86ab071",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.754364,
+                    33.716972
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:03:21",
+                "file": "images/IMG_0453/IMG_0453.HEIC",
+                "hash": "f5c70c5f94056e96047eb36d81e34d29f5763f927ec4f61507c03524e86ab071"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "93d5f1074546b7ce1f9b5d8a4f7509d0cf0c47a1fdb0b7adba7747d0b2cb2c61",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.763083,
+                    33.718972
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:15:33",
+                "file": "images/IMG_0407/IMG_0407.HEIC",
+                "hash": "93d5f1074546b7ce1f9b5d8a4f7509d0cf0c47a1fdb0b7adba7747d0b2cb2c61"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "07afae60c905cf768a962fae1cc9026830967a441daca60af840182d869eecf6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.7576,
+                    33.719242
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:39:59",
+                "file": "images/IMG_0438/IMG_0438.HEIC",
+                "hash": "07afae60c905cf768a962fae1cc9026830967a441daca60af840182d869eecf6"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "95258f4dc30d62735acca7cc3a59c5a92dcc633ea804dcd09b34c6c44d4119cc",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758003,
+                    33.719514
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:38:56",
+                "file": "images/IMG_0436/IMG_0436.HEIC",
+                "hash": "95258f4dc30d62735acca7cc3a59c5a92dcc633ea804dcd09b34c6c44d4119cc"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ecb988db05586871a96e1b5999407a925599b38d7ac1a824943c2792315fd148",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.763292,
+                    33.719192
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:16:29",
+                "file": "images/IMG_0409/IMG_0409.HEIC",
+                "hash": "ecb988db05586871a96e1b5999407a925599b38d7ac1a824943c2792315fd148"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "9f2ec433e0115afd15ff9a824c79e6ad127eac9c23df8bac3ab217c75b6649c8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758628,
+                    33.719939
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:36:09",
+                "file": "images/IMG_0431/IMG_0431.HEIC",
+                "hash": "9f2ec433e0115afd15ff9a824c79e6ad127eac9c23df8bac3ab217c75b6649c8"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "096f108398a4c59535fee5a99d3543273d111f6f203dbedb51a6a01cae649179",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.753364,
+                    33.717833
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:01:04",
+                "file": "images/IMG_0452/IMG_0452.HEIC",
+                "hash": "096f108398a4c59535fee5a99d3543273d111f6f203dbedb51a6a01cae649179"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "420e84c3646e00b03e9bdb61cdfb40ef75beed4210e668b300ee8feeea75e265",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.755014,
+                    33.717408
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:05:32",
+                "file": "images/IMG_0455/IMG_0455.HEIC",
+                "hash": "420e84c3646e00b03e9bdb61cdfb40ef75beed4210e668b300ee8feeea75e265"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "a2badad7e20a2420f8fb5135f72ab8bad9c45f5c4d422717fee079d1bf5dc112",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758781,
+                    33.717681
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:15:42",
+                "file": "images/IMG_0463/IMG_0463.HEIC",
+                "hash": "a2badad7e20a2420f8fb5135f72ab8bad9c45f5c4d422717fee079d1bf5dc112"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "a44a349bdccfa51ed5219d591a5bd6a1af5a15df0bc8ef3f157c8af882a67177",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.760528,
+                    33.717331
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:18:13",
+                "file": "images/IMG_0464/IMG_0464.HEIC",
+                "hash": "a44a349bdccfa51ed5219d591a5bd6a1af5a15df0bc8ef3f157c8af882a67177"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "426094fe9b385fd88ac1ba296bde61af76f7975ec6b122e44b5f80fc5385900c",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758781,
+                    33.720067
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:35:42",
+                "file": "images/IMG_0430/IMG_0430.HEIC",
+                "hash": "426094fe9b385fd88ac1ba296bde61af76f7975ec6b122e44b5f80fc5385900c"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "e4b5c65bc871ec4ce33d1324cef4f62cf0a9975d38d8beacce8c4c976c50f691",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.757644,
+                    33.719264
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:39:49",
+                "file": "images/IMG_0437/IMG_0437.HEIC",
+                "hash": "e4b5c65bc871ec4ce33d1324cef4f62cf0a9975d38d8beacce8c4c976c50f691"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "5602a9db9bf92d368072124d148f7073189e91a9fa1bd455819da0c705fb4099",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.763283,
+                    33.719208
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:16:22",
+                "file": "images/IMG_0408/IMG_0408.HEIC",
+                "hash": "5602a9db9bf92d368072124d148f7073189e91a9fa1bd455819da0c705fb4099"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "683848e89dadc8027bbb4dd029b5ae9ac9624fd64ad9404a2597ff5d5577110b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.762567,
+                    33.718717
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:14:00",
+                "file": "images/IMG_0406/IMG_0406.HEIC",
+                "hash": "683848e89dadc8027bbb4dd029b5ae9ac9624fd64ad9404a2597ff5d5577110b"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "eaf858a97aeb7446b89931a35d97a51b31bd8d4932aa1424775bd75ef7260ca7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.757508,
+                    33.719181
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:40:18",
+                "file": "images/IMG_0439/IMG_0439.HEIC",
+                "hash": "eaf858a97aeb7446b89931a35d97a51b31bd8d4932aa1424775bd75ef7260ca7"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "0435a8ff63ae9baf56e129306eff0e630a82bba02820ddfffaf110a190f190bd",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.751992,
+                    33.719197
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:51:38",
+                "file": "images/IMG_0442/IMG_0442.HEIC",
+                "hash": "0435a8ff63ae9baf56e129306eff0e630a82bba02820ddfffaf110a190f190bd"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "7ae942fbb354b9617ffa14ea5833ce40089c626ff4269bb7064e51b4379d3eb5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.75225,
+                    33.717861
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:54:51",
+                "file": "images/IMG_0445/IMG_0445.HEIC",
+                "hash": "7ae942fbb354b9617ffa14ea5833ce40089c626ff4269bb7064e51b4379d3eb5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ede1b3be57a448baa7fb184223a0aba4b0b73625111355913b8c1683cddef18e",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.761711,
+                    33.719703
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:25:07",
+                "file": "images/IMG_0420/IMG_0420.HEIC",
+                "hash": "ede1b3be57a448baa7fb184223a0aba4b0b73625111355913b8c1683cddef18e"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "f9228988a63efcb2eb9af4503ee0e4927714afe05da23e4ae3fa4e64f69233a6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.761842,
+                    33.719753
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:24:40",
+                "file": "images/IMG_0418/IMG_0418.HEIC",
+                "hash": "f9228988a63efcb2eb9af4503ee0e4927714afe05da23e4ae3fa4e64f69233a6"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "0d724ccde55b8359b075f9d30b208f78e0cbd39fdf9d76e62815ee1314daebab",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.759033,
+                    33.720222
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:34:21",
+                "file": "images/IMG_0427/IMG_0427.HEIC",
+                "hash": "0d724ccde55b8359b075f9d30b208f78e0cbd39fdf9d76e62815ee1314daebab"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "30f89e3b5abe36df5f779678a99359800ce43244dc6833fa923afe736453eaf5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.762825,
+                    33.720439
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:19:41",
+                "file": "images/IMG_0411/IMG_0411.HEIC",
+                "hash": "30f89e3b5abe36df5f779678a99359800ce43244dc6833fa923afe736453eaf5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "1cb98ae119c73ea7012aaac734ac55f3e97409a67f6d596bedc64ed8fcd0eae8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758881,
+                    33.720136
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:35:22",
+                "file": "images/IMG_0429/IMG_0429.HEIC",
+                "hash": "1cb98ae119c73ea7012aaac734ac55f3e97409a67f6d596bedc64ed8fcd0eae8"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "375fb603632b546b143d79b52fea0ed1a91392e6d73ee23fff8be798becf2744",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.761978,
+                    33.719853
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:23:55",
+                "file": "images/IMG_0416/IMG_0416.HEIC",
+                "hash": "375fb603632b546b143d79b52fea0ed1a91392e6d73ee23fff8be798becf2744"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "1fe673536bbbe3b5b9c1cc61f0d13b3f567f9b0c3ecfeaa5079842cd6a7fa790",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.752236,
+                    33.71795
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:54:36",
+                "file": "images/IMG_0444/IMG_0444.HEIC",
+                "hash": "1fe673536bbbe3b5b9c1cc61f0d13b3f567f9b0c3ecfeaa5079842cd6a7fa790"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "d5fe7ba894fe8ce7947c2036caffe3e1222dff67a79d5357585aa3e1ef1c8d92",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.752006,
+                    33.719192
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:51:46",
+                "file": "images/IMG_0443/IMG_0443.HEIC",
+                "hash": "d5fe7ba894fe8ce7947c2036caffe3e1222dff67a79d5357585aa3e1ef1c8d92"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "7b53a232559c0ae875c7394289ffb3b5601b3d31e0267c2139e47dc915a6bf1b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758972,
+                    33.720194
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:34:44",
+                "file": "images/IMG_0428/IMG_0428.HEIC",
+                "hash": "7b53a232559c0ae875c7394289ffb3b5601b3d31e0267c2139e47dc915a6bf1b"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "58345eebf5fb4c2a836023ee51004c6bffbe216df86055764b3a2e2fef6b7550",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.761886,
+                    33.7198
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:24:20",
+                "file": "images/IMG_0417/IMG_0417.HEIC",
+                "hash": "58345eebf5fb4c2a836023ee51004c6bffbe216df86055764b3a2e2fef6b7550"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "31be3b002b0d76de62da3838190d0c6790f5665cf767ba525a3a257a3e595f1e",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.763458,
+                    33.719258
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:17:04",
+                "file": "images/IMG_0410/IMG_0410.HEIC",
+                "hash": "31be3b002b0d76de62da3838190d0c6790f5665cf767ba525a3a257a3e595f1e"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "c8e91cc3300fb3781286f752ef0c33b4739a9182793e68b9d801cfb0f60418a4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.760078,
+                    33.718578
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:30:43",
+                "file": "images/IMG_0426/IMG_0426.HEIC",
+                "hash": "c8e91cc3300fb3781286f752ef0c33b4739a9182793e68b9d801cfb0f60418a4"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "a431198e713089854e49f60b5347d3553c566a73e620d102dda405e3b10c3411",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.761125,
+                    33.719233
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:26:35",
+                "file": "images/IMG_0421/IMG_0421.HEIC",
+                "hash": "a431198e713089854e49f60b5347d3553c566a73e620d102dda405e3b10c3411"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "adf45a795b29ca64a2d82b46d823544cf41fec5c332bc99cf4cb48f108e71a67",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758614,
+                    33.719925
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:36:18",
+                "file": "images/IMG_0432/IMG_0432.HEIC",
+                "hash": "adf45a795b29ca64a2d82b46d823544cf41fec5c332bc99cf4cb48f108e71a67"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "e660d695c3849c723db6c1e6b11043db421627ac0f7ec92e98ee98e23603105d",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758125,
+                    33.7196
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:38:34",
+                "file": "images/IMG_0435/IMG_0435.HEIC",
+                "hash": "e660d695c3849c723db6c1e6b11043db421627ac0f7ec92e98ee98e23603105d"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "53a283c935b5ee36fb9dd8f0ab5c0f44137b9681af694d19940bc0733dc0a880",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758094,
+                    33.717147
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:14:09",
+                "file": "images/IMG_0461/IMG_0461.HEIC",
+                "hash": "53a283c935b5ee36fb9dd8f0ab5c0f44137b9681af694d19940bc0733dc0a880"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "37b84c7a80ec1851c635a4d7984840a5eb8157573dec24862bae443b3654b3ca",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.75785,
+                    33.717281
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:13:41",
+                "file": "images/IMG_0459/IMG_0459.HEIC",
+                "hash": "37b84c7a80ec1851c635a4d7984840a5eb8157573dec24862bae443b3654b3ca"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "651b5b6dcb1382d5d4395fd2390e8290071e0a72459992ecd1d73df7188eb427",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.752411,
+                    33.717992
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:57:10",
+                "file": "images/IMG_0450/IMG_0450.HEIC",
+                "hash": "651b5b6dcb1382d5d4395fd2390e8290071e0a72459992ecd1d73df7188eb427"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "dae2120dbc046c19fa97b91aebfe0176348e20c28bdfabd3678b44ccf8d9b83e",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.757819,
+                    33.717144
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:13:10",
+                "file": "images/IMG_0457/IMG_0457.HEIC",
+                "hash": "dae2120dbc046c19fa97b91aebfe0176348e20c28bdfabd3678b44ccf8d9b83e"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "da745bf745745c08d2067068e56db0fb93cf0e89c48526afde658e3ea0ab8fca",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758208,
+                    33.719639
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:38:14",
+                "file": "images/IMG_0434/IMG_0434.HEIC",
+                "hash": "da745bf745745c08d2067068e56db0fb93cf0e89c48526afde658e3ea0ab8fca"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "44c0378a27602306bc6b22452f4c6ac9c3d70a3ceb0e1c5fac0f334c27eb9e77",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758239,
+                    33.719653
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:37:51",
+                "file": "images/IMG_0433/IMG_0433.HEIC",
+                "hash": "44c0378a27602306bc6b22452f4c6ac9c3d70a3ceb0e1c5fac0f334c27eb9e77"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "f7414bac1754396892d4dd2eaf4e0eedca39798b9d73647c3f5fb8ed1d86dcd5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.755333,
+                    33.717789
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:06:42",
+                "file": "images/IMG_0456/IMG_0456.HEIC",
+                "hash": "f7414bac1754396892d4dd2eaf4e0eedca39798b9d73647c3f5fb8ed1d86dcd5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "5f2c2f3c1099415b8d3cec63744699835de99c1c7cc752a12c602460849537a6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.752931,
+                    33.718678
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T12:59:53",
+                "file": "images/IMG_0451/IMG_0451.HEIC",
+                "hash": "5f2c2f3c1099415b8d3cec63744699835de99c1c7cc752a12c602460849537a6"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "0cc5b022f81c1ef35823c2e7cd2fdc7e1c85319784e7ec89c7b38fb06bff13fd",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.757653,
+                    33.717197
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:13:16",
+                "file": "images/IMG_0458/IMG_0458.HEIC",
+                "hash": "0cc5b022f81c1ef35823c2e7cd2fdc7e1c85319784e7ec89c7b38fb06bff13fd"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "e35c07d576b33157b5292b850d6b87a0f545f5975b8b2b80b45a222283ecf06f",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.758056,
+                    33.717144
+                ]
+            },
+            "properties": {
+                "timestamp": "2025-01-18T13:14:02",
+                "file": "images/IMG_0460/IMG_0460.HEIC",
+                "hash": "e35c07d576b33157b5292b850d6b87a0f545f5975b8b2b80b45a222283ecf06f"
+            }
+        }
+    ]
+}

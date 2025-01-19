@@ -90,7 +90,13 @@ function App() {
                             onClose={() => setPopupInfo(undefined)}
                         >
                             <p>Taken at {popupInfo.timestamp.toLocaleString()}</p>
-                            <img width="100%" src={`/output/${popupInfo.hash}.webp`} alt="tree" />
+                            <a
+                                href={`/output/${popupInfo.hash}.webp`}
+                                target="_blank"
+                                style={{"outline": "none"}}
+                            >
+                                <img width="100%" src={`/output/${popupInfo.hash}.webp`} alt="tree"/>
+                            </a>
                         </Popup>
                     )}
                 </SafeChildren>

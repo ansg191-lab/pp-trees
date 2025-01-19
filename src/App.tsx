@@ -11,8 +11,9 @@ const MAPBOX_TOKEN = 'pk.eyJ1IjoiYW5zZzE5MSIsImEiOiJjbTYycGJoN2UwemlmMm1vNnltOXN
 interface PopupInfo {
     lat: number;
     lng: number;
-    timestamp: string;
+    timestamp: Date;
     file: string;
+    hash: string;
 }
 
 function toPopup(feat: Feature): PopupInfo | undefined {
@@ -20,12 +21,13 @@ function toPopup(feat: Feature): PopupInfo | undefined {
     if (props === null || typeof props !== 'object' || feat.geometry.type !== 'Point') {
         return;
     }
-    if ('timestamp' in props && 'file' in props) {
+    if ('timestamp' in props && 'file' in props && 'hash' in props) {
         return {
             lng: feat.geometry.coordinates[0],
             lat: feat.geometry.coordinates[1],
-            timestamp: String(props['timestamp']),
+            timestamp: new Date(String(props['timestamp'])),
             file: String(props['file']),
+            hash: String(props['hash'])
         };
     }
 
@@ -37,7 +39,7 @@ function App() {
     const [popupInfo, setPopupInfo] = useState<PopupInfo | undefined>(undefined);
 
     useEffect(() => {
-        const jsonUrl = new URL('/trees.json', import.meta.url);
+        const jsonUrl = new URL('/output/trees.json', import.meta.url);
         fetch(jsonUrl)
             .then(response => response.json())
             .then(json => setTrees(json))
@@ -87,7 +89,8 @@ function App() {
                             latitude={popupInfo.lat}
                             onClose={() => setPopupInfo(undefined)}
                         >
-                            <p>{popupInfo.file}</p>
+                            <p>Taken at {popupInfo.timestamp.toLocaleString()}</p>
+                            <img width="100%" src={`/output/${popupInfo.hash}.webp`} alt="tree" />
                         </Popup>
                     )}
                 </SafeChildren>

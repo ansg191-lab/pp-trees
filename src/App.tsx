@@ -6,7 +6,7 @@ import './App.css';
 import {Feature, FeatureCollection} from "geojson";
 import Pin from "./Pin.tsx";
 
-const MAPBOX_TOKEN = 'pk.eyJ1IjoiYW5zZzE5MSIsImEiOiJjbTYycGJoN2UwemlmMm1vNnltOXN3ZTZpIn0.C7Hmxns8Up-vLYTiuBp5sQ';
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiYW5zZzE5MSIsImEiOiJjbTYzNXp0bmUwdDh4MmpvY2hwZWtwaXMzIn0.F8zBU-kYjr0XcqNZ7oAUQg';
 
 interface PopupInfo {
     lat: number;

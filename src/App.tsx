@@ -11,9 +11,11 @@ const MAPBOX_TOKEN = 'pk.eyJ1IjoiYW5zZzE5MSIsImEiOiJjbTYzNXp0bmUwdDh4MmpvY2hwZWt
 interface PopupInfo {
     lat: number;
     lng: number;
-    timestamp: Date;
+    id: string;
     file: string;
+    tag: string;
     hash: string;
+    timestamp: Date;
 }
 
 function toPopup(feat: Feature): PopupInfo | undefined {
@@ -21,13 +23,15 @@ function toPopup(feat: Feature): PopupInfo | undefined {
     if (props === null || typeof props !== 'object' || feat.geometry.type !== 'Point') {
         return;
     }
-    if ('timestamp' in props && 'file' in props && 'hash' in props) {
+    if ('timestamp' in props && 'file' in props && 'hash' in props && 'id' in props && 'tag' in props) {
         return {
             lng: feat.geometry.coordinates[0],
             lat: feat.geometry.coordinates[1],
-            timestamp: new Date(String(props['timestamp'])),
+            id: String(props['id']),
             file: String(props['file']),
-            hash: String(props['hash'])
+            tag: String(props['tag']),
+            hash: String(props['hash']),
+            timestamp: new Date(String(props['timestamp'])),
         };
     }
 
@@ -59,7 +63,7 @@ function App() {
                         setPopupInfo(toPopup(feat))
                     }}
                 >
-                    <Pin/>
+                    <Pin tag={feat.properties?.['tag'] ?? 'unknown'}/>
                 </Marker>
             )),
         [trees]
@@ -89,13 +93,25 @@ function App() {
                             latitude={popupInfo.lat}
                             onClose={() => setPopupInfo(undefined)}
                         >
-                            <p>Taken at {popupInfo.timestamp.toLocaleString()}</p>
+                            <div style={{display: "flex", alignItems: "center"}}>
+                                <span style={{width: "60px"}}>Taken at:</span>
+                                <b>{popupInfo.timestamp.toLocaleString()}</b>
+                            </div>
+                            <div style={{display: "flex", alignItems: "center"}}>
+                                <span style={{width: "60px"}}>Tag:</span>
+                                <b>{popupInfo.tag}</b>
+                            </div>
                             <a
-                                href={`/output/${popupInfo.hash}.webp`}
+                                href={`/output/${popupInfo.id}.webp`}
                                 target="_blank"
                                 style={{"outline": "none"}}
                             >
-                                <img width="100%" src={`/output/${popupInfo.hash}.webp`} alt="tree"/>
+                                <img
+                                    width="100%"
+                                    src={`/output/${popupInfo.id}.webp`}
+                                    alt="tree"
+                                    style={{"marginTop": "0.5rem"}}
+                                />
                             </a>
                         </Popup>
                     )}

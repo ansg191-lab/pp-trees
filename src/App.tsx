@@ -116,6 +116,10 @@ function App() {
                 <span style={{ width: "60px" }}>Tag:</span>
                 <b>{popupInfo.tag}</b>
               </div>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <span style={{ width: "60px" }}>File Path:</span>
+                <b>{popupInfo.file}</b>
+              </div>
               <a
                 href={`/output/${popupInfo.id}.webp`}
                 target="_blank"

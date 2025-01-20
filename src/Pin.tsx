@@ -3,36 +3,36 @@ const ICON = `M20.2,15.7L20.2,15.7c1.1-1.6,1.8-3.6,1.8-5.7c0-5.6-4.5-10-10-10S2,
   C20.1,15.8,20.2,15.8,20.2,15.7z`;
 
 interface PinProps {
-    tag: string
+  tag: string;
 }
 
-function Pin({tag}: PinProps) {
-    const pinStyle = {
-        cursor: 'pointer',
-        fill: TAG_COLOR_MAP[toTag(tag)],
-        stroke: 'none'
-    }
+function Pin({ tag }: PinProps) {
+  const pinStyle = {
+    cursor: "pointer",
+    fill: TAG_COLOR_MAP[toTag(tag)],
+    stroke: "none",
+  };
 
-    return (
-        <svg height={20} viewBox="0 0 24 24" style={pinStyle}>
-            <path d={ICON}/>
-        </svg>
-    );
+  return (
+    <svg height={20} viewBox="0 0 24 24" style={pinStyle}>
+      <path d={ICON} />
+    </svg>
+  );
 }
 
 export default Pin;
 
 const TAG_COLOR_MAP = {
-    'unknown': '#00d',
-    'marked': '#d00',
-    'unmarked': '#0d0',
+  unknown: "#00d",
+  marked: "#d00",
+  unmarked: "#0d0",
 } as const;
 type Tag = keyof typeof TAG_COLOR_MAP;
 
 function toTag(tag: string): Tag {
-    if (tag in TAG_COLOR_MAP) {
-        return tag as Tag;
-    }
-    console.warn(`Unknown tag: ${tag}`);
-    return "unknown";
+  if (tag in TAG_COLOR_MAP) {
+    return tag as Tag;
+  }
+  console.warn(`Unknown tag: ${tag}`);
+  return "unknown";
 }

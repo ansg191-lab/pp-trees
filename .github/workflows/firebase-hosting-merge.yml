@@ -3,6 +3,9 @@
 
 name: Deploy to Firebase Hosting on merge
 on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
   push:
     branches:
       - main

@@ -11,10 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
+      - name: Cache Images
+        uses: actions/cache@v4.2.0
+        with:
+          key: ${{ runner.os }}-images
+          path: ./public/output
+
       - uses: oven-sh/setup-bun@v2.0.1
       - uses: google-github-actions/setup-gcloud@v2.1.2
+
       - run: bun install --frozen-lockfile
       - run: bun run build
+
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}

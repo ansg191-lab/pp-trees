@@ -10,8 +10,9 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v2
+      - uses: actions/checkout@v4.2.2
+      - uses: oven-sh/setup-bun@v2.0.1
+      - uses: google-github-actions/setup-gcloud@v2.1.2
       - run: bun install --frozen-lockfile
       - run: bun run build
       - uses: FirebaseExtended/action-hosting-deploy@v0

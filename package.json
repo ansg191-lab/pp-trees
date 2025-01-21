@@ -4,9 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "download": "mkdir -p ./public/output && gsutil -m rsync -r gs://pp-trees-images ./public/output",
-    "predev": "bun run download",
-    "prebuild": "bun run download",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

@@ -9,6 +9,8 @@ import Pin from "./Pin.tsx";
 const MAPBOX_TOKEN =
   "pk.eyJ1IjoiYW5zZzE5MSIsImEiOiJjbTYzNXp0bmUwdDh4MmpvY2hwZWtwaXMzIn0.F8zBU-kYjr0XcqNZ7oAUQg";
 
+const S3_BASE_URL = "https://pp-trees-images.storage.googleapis.com/";
+
 interface PopupInfo {
   lat: number;
   lng: number;
@@ -54,7 +56,7 @@ function App() {
   const [popupInfo, setPopupInfo] = useState<PopupInfo | undefined>(undefined);
 
   useEffect(() => {
-    const jsonUrl = new URL("/output/trees.json", import.meta.url);
+    const jsonUrl = new URL(S3_BASE_URL + "trees.json");
     fetch(jsonUrl)
       .then((response) => response.json())
       .then((json) => setTrees(json))
@@ -106,6 +108,7 @@ function App() {
               anchor="top"
               longitude={popupInfo.lng}
               latitude={popupInfo.lat}
+              maxWidth="300px"
               onClose={() => setPopupInfo(undefined)}
             >
               <div style={{ display: "flex", alignItems: "center" }}>
@@ -117,17 +120,22 @@ function App() {
                 <b>{popupInfo.tag}</b>
               </div>
               <div style={{ display: "flex", alignItems: "center" }}>
-                <span style={{ width: "60px" }}>File Path:</span>
-                <b>{popupInfo.file}</b>
+                <span style={{ width: "60px" }}>File:</span>
+                <a
+                  href={`https://drive.google.com/file/d/${popupInfo.id}`}
+                  target="_blank"
+                >
+                  <b>{popupInfo.file}</b>
+                </a>
               </div>
               <a
-                href={`/output/${popupInfo.id}.webp`}
+                href={`${S3_BASE_URL}${popupInfo.id}.webp`}
                 target="_blank"
                 style={{ outline: "none" }}
               >
                 <img
                   width="100%"
-                  src={`/output/${popupInfo.id}.webp`}
+                  src={`${S3_BASE_URL}${popupInfo.id}.webp`}
                   alt="tree"
                   style={{ marginTop: "0.5rem" }}
                 />

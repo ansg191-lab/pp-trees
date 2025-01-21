@@ -1,0 +1,12 @@
+[
+  {
+    "origin": [
+      "https://pptrees.anshulg.com",
+      "http://localhost:5173",
+      "http://localhost:4173"
+    ],
+    "method": ["GET"],
+    "responseHeader": ["Content-Type"],
+    "maxAgeSeconds": 3600
+  }
+]

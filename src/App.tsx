@@ -129,13 +129,13 @@ function App() {
                 </a>
               </div>
               <a
-                href={`${S3_BASE_URL}${popupInfo.id}.webp`}
+                href={`${S3_BASE_URL}${popupInfo.id}-large.webp`}
                 target="_blank"
                 style={{ outline: "none" }}
               >
                 <img
                   width="100%"
-                  src={`${S3_BASE_URL}${popupInfo.id}.webp`}
+                  src={`${S3_BASE_URL}${popupInfo.id}-small.webp`}
                   alt="tree"
                   style={{ marginTop: "0.5rem" }}
                 />

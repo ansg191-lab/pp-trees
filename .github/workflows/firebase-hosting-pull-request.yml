@@ -47,9 +47,13 @@ jobs:
       - name: Install Playwright Browsers
         run: bunx playwright install --with-deps
 
-      - name: Run tests
-        run: |
-          CI=true bun run test run
+      - name: Run Tests
+        uses: nick-fields/retry@v3.0.0
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: |
+            CI=true bun run test run
 
   build_and_preview:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}

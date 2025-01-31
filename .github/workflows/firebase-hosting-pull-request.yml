@@ -28,6 +28,21 @@ jobs:
       - name: Run Linter
         run: bun run lint
 
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: oven-sh/setup-bun@v2.0.1
+
+      - name: Install Dependencies
+        run: bun install --frozen-lockfile
+      - name: Install Playwright Browsers
+        run: bunx playwright install --with-deps
+
+      - name: Run tests
+        run: |
+          CI=true bun run test run
+
   build_and_preview:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest

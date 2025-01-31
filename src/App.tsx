@@ -1,59 +1,19 @@
 import { useEffect, useMemo, useState } from "react";
-import Map, { Marker, Popup, ScaleControl } from "react-map-gl";
+import Map, { Marker, Popup as MapPopup, ScaleControl } from "react-map-gl";
 import SafeChildren from "./SafeChildren.tsx";
 
 import "./App.css";
-import { Feature, FeatureCollection } from "geojson";
+import { FeatureCollection } from "geojson";
 import Pin from "./Pin.tsx";
+import Popup, { PopupProps } from "./Popup.tsx";
+import { S3_BASE_URL, TreeFromFeature } from "./gcs.ts";
 
 const MAPBOX_TOKEN =
   "pk.eyJ1IjoiYW5zZzE5MSIsImEiOiJjbTYzNXp0bmUwdDh4MmpvY2hwZWtwaXMzIn0.F8zBU-kYjr0XcqNZ7oAUQg";
 
-const S3_BASE_URL = "https://pp-trees-images.storage.googleapis.com/";
-
-interface PopupInfo {
-  lat: number;
-  lng: number;
-  id: string;
-  file: string;
-  tag: string;
-  hash: string;
-  timestamp: Date;
-}
-
-function toPopup(feat: Feature): PopupInfo | undefined {
-  const props = feat.properties;
-  if (
-    props === null ||
-    typeof props !== "object" ||
-    feat.geometry.type !== "Point"
-  ) {
-    return;
-  }
-  if (
-    "timestamp" in props &&
-    "file" in props &&
-    "hash" in props &&
-    "id" in props &&
-    "tag" in props
-  ) {
-    return {
-      lng: feat.geometry.coordinates[0],
-      lat: feat.geometry.coordinates[1],
-      id: String(props["id"]),
-      file: String(props["file"]),
-      tag: String(props["tag"]),
-      hash: String(props["hash"]),
-      timestamp: new Date(String(props["timestamp"])),
-    };
-  }
-
-  throw new Error("Invalid tree properties");
-}
-
 function App() {
   const [trees, setTrees] = useState<FeatureCollection | undefined>(undefined);
-  const [popupInfo, setPopupInfo] = useState<PopupInfo | undefined>(undefined);
+  const [popupInfo, setPopupInfo] = useState<PopupProps | undefined>(undefined);
 
   useEffect(() => {
     const jsonUrl = new URL(S3_BASE_URL + "trees.json");
@@ -77,7 +37,7 @@ function App() {
           anchor="bottom"
           onClick={(e) => {
             e.originalEvent.stopPropagation();
-            setPopupInfo(toPopup(feat));
+            setPopupInfo(TreeFromFeature(feat));
           }}
         >
           <Pin tag={feat.properties?.["tag"] ?? "unknown"} />
@@ -104,43 +64,15 @@ function App() {
           {pins}
 
           {popupInfo && (
-            <Popup
+            <MapPopup
               anchor="top"
               longitude={popupInfo.lng}
               latitude={popupInfo.lat}
               maxWidth="300px"
               onClose={() => setPopupInfo(undefined)}
             >
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <span style={{ width: "60px" }}>Taken at:</span>
-                <b>{popupInfo.timestamp.toLocaleString()}</b>
-              </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <span style={{ width: "60px" }}>Tag:</span>
-                <b>{popupInfo.tag}</b>
-              </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <span style={{ width: "60px" }}>File:</span>
-                <a
-                  href={`https://drive.google.com/file/d/${popupInfo.id}`}
-                  target="_blank"
-                >
-                  <b>{popupInfo.file}</b>
-                </a>
-              </div>
-              <a
-                href={`${S3_BASE_URL}${popupInfo.id}-large.webp`}
-                target="_blank"
-                style={{ outline: "none" }}
-              >
-                <img
-                  width="100%"
-                  src={`${S3_BASE_URL}${popupInfo.id}-small.webp`}
-                  alt="tree"
-                  style={{ marginTop: "0.5rem" }}
-                />
-              </a>
-            </Popup>
+              <Popup {...popupInfo} />
+            </MapPopup>
           )}
         </SafeChildren>
       </Map>

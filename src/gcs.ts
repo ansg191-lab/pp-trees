@@ -1,6 +1,6 @@
 import { Feature } from "geojson";
 
-export const S3_BASE_URL = "https://pp-trees-images.storage.googleapis.com/";
+export const S3_BASE_URL = import.meta.env.VITE_S3_BASE_URL;
 
 export interface Tree {
   lat: number;

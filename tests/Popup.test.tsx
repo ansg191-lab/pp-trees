@@ -1,7 +1,7 @@
 import { expect, test } from "vitest";
 import { render } from "vitest-browser-react";
 import Popup from "../src/Popup";
-import { Tree } from "../src/gcs.ts";
+import { S3_BASE_URL, Tree } from "../src/gcs.ts";
 
 const mockTree: Tree = {
   lng: 12.34,
@@ -29,8 +29,5 @@ test("renders image", async () => {
   await expect.element(image).toBeInTheDocument();
   await expect
     .element(image)
-    .toHaveAttribute(
-      "src",
-      `https://pp-trees-images.storage.googleapis.com/${mockTree.id}-small.webp`,
-    );
+    .toHaveAttribute("src", `${S3_BASE_URL}${mockTree.id}-small.webp`);
 });

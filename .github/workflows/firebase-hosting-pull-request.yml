@@ -68,6 +68,8 @@ jobs:
 
       - run: bun install --frozen-lockfile
       - run: bun run build
+        env:
+          VITE_MAPBOX_TOKEN: ${{ secrets.MAPBOX_TEST_TOKEN }}
 
       - uses: FirebaseExtended/action-hosting-deploy@d482eb942f549f059116ec36b191860128553142 # v0
         with:

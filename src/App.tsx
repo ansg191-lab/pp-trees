@@ -8,8 +8,7 @@ import Pin from "./Pin.tsx";
 import Popup, { PopupProps } from "./Popup.tsx";
 import { S3_BASE_URL, TreeFromFeature } from "./gcs.ts";
 
-const MAPBOX_TOKEN =
-  "pk.eyJ1IjoiYW5zZzE5MSIsImEiOiJjbTYzNXp0bmUwdDh4MmpvY2hwZWtwaXMzIn0.F8zBU-kYjr0XcqNZ7oAUQg";
+const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 function App() {
   const [trees, setTrees] = useState<FeatureCollection | undefined>(undefined);

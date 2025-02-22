@@ -6,11 +6,12 @@ import "./App.css";
 import Pin from "./Pin.tsx";
 import Popup, { PopupProps } from "./Popup.tsx";
 import useTrees from "./useTrees.ts";
+import FullPageError from "./Error.tsx";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 function App() {
-  const { trees } = useTrees();
+  const { trees, error } = useTrees();
   const [popupInfo, setPopupInfo] = useState<PopupProps | undefined>(undefined);
 
   const pins = useMemo(
@@ -31,6 +32,10 @@ function App() {
       )),
     [trees],
   );
+
+  if (error) {
+    return <FullPageError error={error} />;
+  }
 
   return (
     <div className="map">
